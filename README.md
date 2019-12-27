@@ -1,4 +1,4 @@
-# arcturusrobotics.github.io
+# arcturus-robotics.github.io
 
 Our team's website.
 

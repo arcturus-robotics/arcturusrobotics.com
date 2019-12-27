@@ -10,6 +10,10 @@
     color: orange;
 }
 
+#nav {
+    float: right;
+}
+
 .margin {
     height: 25px;
     visibility: hidden;
@@ -17,4 +21,18 @@
 
 body {
     margin: 0px;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:not(#home):hover {
+    color: orangered;
 }

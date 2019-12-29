@@ -1,3 +1,24 @@
+#header {
+    position: fixed;
+    margin-bottom: 25px;
+    width: calc(100% - 30px);
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: black;
+    color: orange;
+}
+
+#nav {
+    float: right;
+}
+
+a:not(#home):hover {
+    color: rgb(255, 145, 0);
+}
+
+
 #nav *:not(:first-child) {
     margin-left: 15px;
 }

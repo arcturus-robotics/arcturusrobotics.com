@@ -1,4 +1,4 @@
-.header {
+#header {
     position: fixed;
     margin-bottom: 25px;
     width: calc(100% - 30px);
@@ -30,9 +30,14 @@ body {
 a {
     color: orange;
     text-decoration: none;
-    transition: 1s;
 }
 
 a:not(#home):hover {
-    color: orangered;
+    color: rgb(255, 145, 0);
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
 }

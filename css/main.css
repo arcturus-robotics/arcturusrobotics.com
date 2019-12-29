@@ -14,13 +14,10 @@
     float: right;
 }
 
-.margin {
-    height: 25px;
-    visibility: hidden;
-}
-
 body {
     margin: 0px;
+    min-height: 100%;
+    position: relative;
 }
 
 * {
@@ -40,4 +37,9 @@ h1 {
     width: 100%;
     text-align: center;
     margin-top: 50px;
+}
+
+.svg {
+    /* https://codepen.io/sosuke/pen/Pjoqqp is totally a life saver */
+    filter: invert(65%) sepia(16%) saturate(4295%) hue-rotate(1deg) brightness(104%) contrast(103%);
 }

@@ -1,22 +1,17 @@
-/* https://matthewjamestaylor.com/bottom-footer */
+/* See https://matthewjamestaylor.com/bottom-footer */
+
 #footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 25px;
+    height: 30px;
     background-color: black;
     color: orange;
 }
 
-#footer-title {
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-.footer-link {
+#footer-links * {
+    margin: 5px;
     display: inline-block !important;
-    line-height: 25px;
 }
 
 .footer-margin {

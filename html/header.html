@@ -1,20 +1,20 @@
-<div id="header">
-    <a href="index.html" id="home">Arcturus Robotics</a>
+<div id="navigation">
+    <a href="index.html" id="navigation-home">Arcturus Robotics</a>
 
-    <div id="nav">
+    <div id="navigation-links">
         <a href="about.html">About</a>
         <a href="resources.html">Resources</a>
         <a href="ftc.html">What is FTC?</a>
         <a href="fll.html">What is FLL?</a>
     </div>
 
-    <img onclick="smallNav();" id="small-nav" class="small-nav-inactive svg" src="img/arrow.svg"
-        alt="fullscreen navigation button">
+    <img src="img/arrow.svg" alt="fullscreen navigation button" id="navigation-fullscreen-button"
+        class="navigation-fullscreen-button-inactive svg" onclick="fullscreenNavigation.toggle();">
 </div>
 
-<div class="header-margin"></div>
+<div id="header-margin"></div>
 
-<div id="header-screen">
+<div id="navigation-fullscreen">
     <a href="about.html">About</a>
     <a href="resources.html">Resources</a>
     <a href="ftc.html">What is FTC?</a>

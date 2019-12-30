@@ -2,78 +2,69 @@
 <html lang="en">
 
 <head>
-    <!-- ??? -->
+    <!-- Meta -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Meta stuff I understand -->
-    <!-- TODO: add keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <meta name="description"
         content="Arcturus is a student-led Team Competing in the First Tech Challenge. We strive to improve and gain skills in Engineering. Programming, Business, and Outreach.">
     <meta name="author" content="Arcturus Robotics">
+
     <!-- Title -->
-    <title>Arcturus Robotics - Resources</title>
+    <title>Arcturus Robotics - About</title>
+
     <!-- CSS -->
-    <link type="text/css" rel="stylesheet" href="css/css.css">
-    <link type="text/css" rel="stylesheet" href="css/file-specific/resources.css">
-    <!-- Header JS -->
-    <script src="js/header.js"></script>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/file-specific/resources.css" type="text/css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="js/load.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
 </head>
 
 <body>
-    <div id="header">
-        <a href="index.html" id="home">Arcturus Robotics</a>
+    <div id="header-container" class="container"></div>
 
-        <div id="nav">
-            <a href="about.html">About</a>
-            <a href="#">Resources</a>
-            <a href="ftc.html">What is FTC?</a>
-            <a href="fll.html">What is FLL?</a>
-        </div>
-        <img onclick="smallNav()" id="small-nav" class="small-nav-inactive" src="img/arrow.svg" alt="Expand/Contract"
-            width="25" height="25">
-    </div>
-    <div class="margin">h</div>
-    <div id="small-nav-screen">
-        <a href="about.html">About</a>
-        <a href="#">Resources</a>
-        <a href="ftc.html">What is FTC?</a>
-        <a href="fll.html">What is FLL?</a>
-    </div>
     <h1>Skystone (2019-2020) Resources</h1>
     <table>
         <tbody>
             <tr>
                 <td>
-                    <button class="table-btn" onclick="window.open('https://youtu.be/XiGB_8Ppnbs')">Game
-                        Animation</button>
+                    <a href="https://www.youtube.com/watch?v=XiGB_8Ppnbs">
+                        <button class="table-btn">Game Animation</button>
+                    </a>
                 </td>
                 <td>
-                    <button class="table-btn table-btn-sm"
-                        onclick="window.open('https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1.pdf')">Game
-                        Manual Part 1</button><br>
-                    <button class="table-btn table-btn-sm"
-                        onclick="window.open('https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2.pdf')">Game
-                        Manual Part 2</button>
+                    <a
+                        href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-1.pdf">
+                        <button class="table-btn table-btn-sm">Game Manual Part 1</button>
+                    </a>
+                    <br>
+                    <a
+                        href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2.pdf">
+                        <button class="table-btn table-btn-sm">Game Manual Part 2</button>
+                    </a>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="table-btn"
-                        onclick="window.open('https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf')">Self-Inspection</button>
+                    <a
+                        href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf">
+                        <button class="table-btn">Self-Inspection</button>
+                    </a>
                 </td>
                 <td>
-                    <button class="table-btn"
-                        onclick="window.open('https://firstinspiresst01.blob.core.windows.net/ftc/2020/gbrm-neo-pg.pdf')">One-Pager</button>
+                    <a href="https://firstinspiresst01.blob.core.windows.net/ftc/2020/gbrm-neo-pg.pdf">
+                        <button class="table-btn">One-Pager</button>
+                    </a>
                 </td>
             </tr>
         </tbody>
     </table>
-    <div class="footer-margin">h</div>
-    <div id="footer">
-        <a class="footer-link" href="https://instagram.com/arcturusrobotics/">Instagram</a>
-    </div>
+
+    <div id="footer-container" class="container"></div>
 </body>
 
 </html>

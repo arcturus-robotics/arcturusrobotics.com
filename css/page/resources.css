@@ -8,7 +8,8 @@
     height: 250px;
     background-color: black;
     color: orange;
-	font-size: 20pt;
+    font-size: 20pt;
+    margin: 5px;
 	border: 0px;
 }
 
@@ -18,8 +19,4 @@ a .resources-button {
 
 .resources-button-small {
     height: 120px;
-}
-
-td:not(:first-child) .resources-button-small {
-    margin-top: 5px;
 }

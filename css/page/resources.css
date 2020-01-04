@@ -4,8 +4,8 @@
 }
 
 .resources-button {
-    width: 250px;
-    height: 125px;
+    width: 500px;
+    height: 250px;
     background-color: black;
     color: orange;
 	font-size: larger;
@@ -17,10 +17,9 @@ a .resources-button {
 }
 
 .resources-button-small {
-    width: 250px;
-    height: calc((125px / 2) - 2.5px)
+    height: 120px;
 }
 
-.resources-button-small-bottom {
+td:not(:first-child) .resources-button-small {
     margin-top: 5px;
 }

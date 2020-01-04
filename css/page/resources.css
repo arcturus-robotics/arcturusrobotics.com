@@ -8,7 +8,8 @@
     height: 125px;
     background-color: black;
     color: orange;
-    font-size: larger;
+	font-size: larger;
+	border: 0px;
 }
 
 a .resources-button {
@@ -20,6 +21,6 @@ a .resources-button {
     height: calc((125px / 2) - 2.5px)
 }
 
-.resources-button-small:not(:first-child) {
+.resources-button-small-bottom {
     margin-top: 5px;
 }

@@ -61,30 +61,6 @@ a:not(#navigation-home):hover {
     visibility: hidden;
 }
 
-@keyframes navigation-fullscreen-rotate-active {
-    0% {
-        transform: rotate(0deg);
-        margin-top: 12.5px;
-    }
-
-    100% {
-        transform: rotate(180deg);
-        margin-top: 10px;
-    }
-}
-
-@keyframes navigation-fullscreen-rotate-inactive {
-    0% {
-        transform: rotate(180deg);
-        margin-top: 10px;
-    }
-
-    100% {
-        transform: rotate(360deg);
-        margin-top: 12.5px;
-    }
-}
-
 @media only screen and (max-width: 680px) {
     #navigation-links {
         display: none;

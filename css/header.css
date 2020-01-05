@@ -47,19 +47,13 @@ a:not(#navigation-home):hover {
     margin-top: 12.5px;
     width: 25px;
     height: 25px;
-    cursor: pointer;
+	cursor: pointer;
+	transition: all 1.5s ease;
 }
 
-#navigation-fullscreen-button-active {
-    animation-name: navigation-fullscreen-rotate-active;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
-}
-
-#navigation-fullscreen-button-inactive {
-    animation-name: navigation-fullscreen-rotate-inactive;
-    animation-duration: 1.5s;
-    animation-fill-mode: forwards;
+.navigation-fullscreen-button-active {
+    transform: rotate(180deg);
+    margin-top: 10px;
 }
 
 #header-margin {

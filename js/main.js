@@ -6,7 +6,7 @@ $(() => {
 
 let FullscreenNavigation = class {
     constructor() {
-        this.state = false;
+		this.state = false;
         this.container = "#navigation-fullscreen";
         this.button = "#navigation-fullscreen-button";
     }
@@ -19,14 +19,12 @@ let FullscreenNavigation = class {
             // Show the container.
             $(this.container).css("display", "block");
             // Activate the button.
-			$(this.button).removeClass("navigation-fullscreen-button-inactive")
-			$(this.button).addClass("navigation-fullscreen-button-active");
+			$(this.button).toggleClass("navigation-fullscreen-button-active")
         } else {
             // Hide the container.
             $(this.container).css("display", "none");
             // Deactivate the button.
-			$(this.button).removeClass("navigation-fullscreen-button-active")
-			$(this.button).addClass("navigation-fullscreen-button-inactive");
+			$(this.button).toggleClass("navigation-fullscreen-button-active")
         }
     }
 }

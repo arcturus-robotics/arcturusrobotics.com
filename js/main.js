@@ -17,11 +17,13 @@ let FullscreenNavigation = class {
 
         if (this.state) {
             // Show the container.
-            $(this.container).css("display", "block");
+			$(this.container).toggleClass("navigation-fullscreen-container-active");
+			$(this.container).css("display", "block");
             // Activate the button.
 			$(this.button).toggleClass("navigation-fullscreen-button-active")
         } else {
-            // Hide the container.
+			// Hide the container.
+			$(this.container).toggleClass("navigation-fullscreen-container-active");
             $(this.container).css("display", "none");
             // Deactivate the button.
 			$(this.button).toggleClass("navigation-fullscreen-button-active")

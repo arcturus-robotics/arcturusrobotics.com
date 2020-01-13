@@ -28,9 +28,10 @@ a:not(#navigation-home):hover {
     height: calc(100% - 50px);
     left: 0;
     top: 50px;
-    background: rgba(51,51,51,0.7);
-    z-index: 10;
-    display: none;
+    z-index: 1000;
+	display: none;
+	background: rgba(51, 51, 51, 0.7);
+	animation: fade-out;
 }
 
 #navigation-fullscreen * {
@@ -56,6 +57,10 @@ a:not(#navigation-home):hover {
     margin-top: 10px;
 }
 
+.navigation-fullscreen-container-active {
+	animation: fadein 1.5s;
+}
+
 #header-margin {
     height: 25px;
     visibility: hidden;
@@ -69,4 +74,14 @@ a:not(#navigation-home):hover {
     #navigation-fullscreen-button {
         display: inline-block;
     }
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes fadeout {
+	from { opacity: 1; }
+	to { opacity: 0; }
 }

@@ -1,7 +1,7 @@
 // Load the header and footer.
 $(() => {
-    $("#header").load("html/header.html")
-    $("#footer").load("html/footer.html");
+    $("#header").load("/assets/html/header.html")
+    $("#footer").load("/assets/html/footer.html");
 });
 
 let FullscreenNavigation = class {

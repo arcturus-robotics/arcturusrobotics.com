@@ -1,0 +1,37 @@
+/* Source(s): https://www.w3schools.com/howto/howto_css_image_text.asp */
+
+#content {
+    padding: 0px;
+}
+
+#header-container {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}

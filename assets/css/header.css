@@ -8,6 +8,7 @@
     padding-right: 15px;
     background-color: black;
     color: orange;
+    z-index: 1000000;
 }
 
 a:not(#navigation-home):hover {

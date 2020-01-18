@@ -10,8 +10,11 @@
 }
 
 #footer-links * {
-    margin: 5px;
     display: inline-block !important;
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+    margin: 2.5px;
 }
 
 .footer-margin {

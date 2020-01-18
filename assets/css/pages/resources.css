@@ -25,7 +25,7 @@ a .resources-button {
     height: calc(120px / 1.5);
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 705px) {
     /* If small screen */
 
     #resources {

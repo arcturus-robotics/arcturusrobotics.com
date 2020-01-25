@@ -1,8 +1,0 @@
-ul {
-    list-style-type: none;
-    text-align: center;
-    width: calc(100% - 75px);
-    margin-left: calc(75px / 2);
-    margin-right: calc(75px / 2);
-    padding: 0px;
-}

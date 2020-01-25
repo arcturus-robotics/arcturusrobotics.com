@@ -2,21 +2,21 @@
 <html>
 
 <head>
-    {% seo %}
+    {%- seo -%}
 
     <link href="{{ "/assets/css/style.css" | relative_url }}" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-    {% include header.html %}
+    {%- include header.html -%}
 
     <div class="content">
         <div class="wrapper">
-            {{ content }}
+            {{- content -}}
         </div>
     </div>
 
-    {% include footer.html %}
+    {%- include footer.html -%}
 </body>
 
 </html>

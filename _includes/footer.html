@@ -1,26 +1,26 @@
 <div class="footer">
     <div class="wrapper">
         <ul class="info">
-            {% if site.author %}
+            {%- if site.author -%}
             <li>
                 <ul class="contact">
-                    {% if site.author.name %}
+                    {%- if site.author.name -%}
                     <li class="contact-name">
-                        {{ site.author.name | escape }}
+                        {{- site.author.name | escape -}}
                     </li>
-                    {% endif %}
-                    {% if site.author.email %}
+                    {%- endif -%}
+                    {%- if site.author.email -%}
                     <li class="contact-email">
                         <a href="mailto:{{ site.author.email }}">
-                            {{ site.author.email}}
+                            {{- site.author.email -}}
                         </a>
                     </li>
-                    {% endif %}
+                    {%- endif -%}
                 </ul>
             </li>
-            {% endif %}
+            {%- endif -%}
             <li>
-                {% include social.html %}
+                {%- include social.html -%}
             </li>
         </ul>
     </div>

@@ -3,7 +3,17 @@ layout: default
 ---
 
 <div class="arcturus">
-    <img src="/assets/image/arcturus.png" alt="The star Arcturus brightly glowing orange in space.">
+    <img class="arcturus-image" src="/assets/image/arcturus.png"
+        alt="The star Arcturus brightly glowing orange in space.">
+    <h1 class="arcturus-text">
+        {%- if page.title -%}
+        {{- page.title -}}
+        {%- elsif site.title -%}
+        {{- site.title -}}
+        {%- else -%}
+        Home
+        {%- endif -%}
+    </h1>
 </div>
 
-{{ content }}
+{{- content -}}

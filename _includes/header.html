@@ -1,5 +1,17 @@
 <div class="header">
     <div class="wrapper">
-        Arcturus Robotics
+        <div class="navigation">
+            <a class="navigation-home" href="/">Home</a>
+
+            <ul class="navigation-links">
+                {%- for item in site.data.navigation -%}
+                <li class="navigation-link">
+                    <a href="{{ item.url }}">
+                        {{- item.name | escape -}}
+                    </a>
+                </li>
+                {%- endfor -%}
+            </ul>
+        </div>
     </div>
 </div>

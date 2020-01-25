@@ -1,3 +1,3 @@
 # arcturus-robotics.github.io
 
-Our team's website.
+Our (mostly) handmade website.

@@ -1,14 +1,14 @@
 # Site settings
 title: Arcturus Robotics
+description: >
+  Arcturus is a student-led team competing in the First Tech Challenge. 
+  We strive to improve and gain skills in Engineering, Programming, Business, and Outreach.
 author:
   name: Arcturus Robotics
   email: ftcarcturus13245@gmail.com
   social:
     instagram: arcturusrobotics
     github: arcturus-robotics
-description: >
-  Arcturus is a student-led team competing in the First Tech Challenge. 
-  We strive to improve and gain skills in Engineering, Programming, Business, and Outreach.
 keywords:
   - Arcturus
   - Robotics
@@ -21,5 +21,10 @@ keywords:
 
 # Build settings
 markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag

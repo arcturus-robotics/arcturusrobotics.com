@@ -1,2 +1,6 @@
 - name: About
   url: /about.html
+- name: Resources
+  url: /resources.html
+- name: Projects
+  url: /projects.html

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>Blog Posts in {{ page.category }}</h1>
+
+<ul>
+{% for post in site.categories[page.category] %}
+    <li>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p>Posted by {{ post.author }} on {{ post.publishDate }} in {{ post.categories | join: ", " }}</p>
+        {{ post.excerpt }}
+    </li>
+{% endfor %}
+</ul>

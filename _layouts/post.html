@@ -7,6 +7,6 @@ layout: default
 {%- if page.title -%}
 <h1>{{- page.title -}}</h1>
 {%- endif -%}
-<h4 class="title-info">Posted by {%- if page.author -%}{{- page.author | prepend: " " | append: " " -}}{%- endif -%} on {%- if page.publishDate -%}{{- page.publishDate | prepend: " " -}}{%- endif -%}</h4>
+<h4 class="title-info">Posted by {%- if page.author -%}{{- page.author | prepend: " " | append: " " -}}{%- endif -%} on {%- if page.publish_date -%}{{- page.publish_date | prepend: " " -}}{%- endif -%}</h4>
 
 {{- content -}}

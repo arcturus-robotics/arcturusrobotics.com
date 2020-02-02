@@ -12,7 +12,17 @@
                 </li>
                 {%- endfor -%}
             </ul>
+            <img alt="fullscreen navigation button" class="svg" id="navigation-fullscreen-button" onclick="fullscreenNavigation.toggle();" src="/assets/image/arrow.svg">
         </div>
     </div>
 </div>
 <div class="header-margin">h</div>
+<div id="navigation-fullscreen">
+    {%- for item in site.data.navigation -%}
+        <li class="navigation-link">
+            <a href="{{ item.url }}">
+                {{- item.name | escape -}}
+            </a>
+        </li>
+    {%- endfor -%}
+</div>

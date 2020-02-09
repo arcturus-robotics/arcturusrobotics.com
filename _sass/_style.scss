@@ -195,6 +195,7 @@ p {
     height: 25px;
     cursor: pointer;
     transition: all 1.5s ease;
+    filter: invert(63%) sepia(36%) saturate(3314%) hue-rotate(3deg) brightness(107%) contrast(107%);
 }
 
 .navigation-fullscreen-button-active {

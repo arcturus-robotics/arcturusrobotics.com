@@ -1,0 +1,22 @@
+{
+    "short_name": "Arcturus Robotics",
+    "name": "Arcturus Robotics: A student-led team competing in the First Tech Challenge",
+    "description": "Resources, Projects, Blog Posts, and more about our robotics team!",
+    "icons": [
+      {
+        "src": "/assets/image/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/image/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#ffa500",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#ffa500"
+  }

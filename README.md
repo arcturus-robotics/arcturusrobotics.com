@@ -4,6 +4,8 @@ Our (mostly) handmade website.
 
 ## Build
 
+### CLI
+
 Type the following in your console:
 
 ```bash
@@ -11,6 +13,12 @@ $ bundle exec jekyll serve
 ```
 
 It should tell you what to put in your browser.
+
+### CodeKit
+
+All needed configurations for CodeKit are in the `config.codekit3` file.
+
+Click the little eye + window icon to open up the website in your default browser.
 
 ## Making Blog Posts
 

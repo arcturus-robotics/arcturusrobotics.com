@@ -1,4 +1,8 @@
+# Auto-generated folder, containing the compiled site.
 _site
+# Cache for Sass, the CSS enhancement thingy
 .sass-cache
+# No clue
 .jekyll-metadata
+# Cache file created by macOS
 .DS_Store

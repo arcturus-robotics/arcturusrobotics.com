@@ -1,4 +1,9 @@
 @media (prefers-color-scheme: dark) {
+    html, body, .content, * {
+        color: $white;
+        background-color: $black;
+    }
+    
     h1.arcturus-text {
         background-color: rgba(0, 0, 0, 0) !important;
         color: $black;
@@ -6,10 +11,5 @@
 
     a.navigation-link {
         background: rgba(51, 51, 51, 0.7) !important;
-    }
-
-    *, body, html {
-        color: $white;
-        background-color: $black !important;
     }
 }

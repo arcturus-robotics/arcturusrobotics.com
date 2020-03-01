@@ -5,6 +5,10 @@
             {%- if site.author -%}
             <li>
                 <ul class="contact">
+                    <!-- 
+                        Display text that says "Email Us!" if there is a 
+                        "site.author.email" parameter in "_config.yml"
+                    -->
                     {%- if site.author.email -%}
                     <li class="contact-email">
                         <a href="mailto:{{ site.author.email }}">

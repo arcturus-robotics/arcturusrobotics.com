@@ -276,3 +276,17 @@ code {
 }
 
 // End Blog
+
+// Dark theme
+
+@media (prefers-color-scheme: dark) {
+    *, body, html {
+        color: $white;
+        background-color: $black !important;
+    }
+
+    h1.arcturus-text {
+        background-color: rgba(0, 0, 0, 0) !important;
+        color: $black;
+    }
+}

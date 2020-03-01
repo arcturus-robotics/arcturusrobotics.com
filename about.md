@@ -5,7 +5,17 @@ layout: default
 
 # About
 
+## Us
+
 Arcturus is a student-led team competing in the First Tech Challenge. We strive to improve and gain skills in Engineering, Programming, Business, and Outreach.
+
+### Outreach Efforts
+
+???
+
+### Sponsors
+
+\*WIP\*
 
 ## First Tech Challenge
 

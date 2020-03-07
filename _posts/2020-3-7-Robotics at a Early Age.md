@@ -8,7 +8,7 @@ categories: [Outreach]
 
 ## What Does Getting Involved in Robotics Early Mean?
 
-  As the world of technology Develops, it has been increasing popular for kids to go into the vast realm of technology. From doing a basic summer camp to joining a robotics team or club. These are all great ways for really getting involved. 
+      As the world of technology Develops, it has been increasing popular for kids to go into the vast realm of technology. From doing a basic summer camp to joining a robotics team or club. These are all great ways for really getting involved. 
 
 #### What can you do to get involved? :
 
@@ -19,8 +19,8 @@ categories: [Outreach]
 
 ## What does getting Involved in Robotics do in terms of Career? 
 
-  Well, it does a number of things. First, it sets you on the path to join one of the fastest growing and most important industries in all of humanity. Robotics and Technology is essential to all of our future. Right now there is boom in technology jobs where so people are not even filling in all the gaps! Involving yourself in robotics is super important to be putting yourself into this evergrowing industry. Second, It improves how you will influence the world with your designs and ideas. With robotics, you can make any revolutionary and world-changing idea in your lifetime. You can even make multiple. One person, with just robotics, can have more influence on the world than 1,000 people. Robotics is a powerful tool that, if you start involving yourself with it early, it can have some amazing benefits. 
+      Well, it does a number of things. First, it sets you on the path to join one of the fastest growing and most important industries in all of humanity. Robotics and Technology is essential to all of our future. Right now there is boom in technology jobs where so people are not even filling in all the gaps! Involving yourself in robotics is super important to be putting yourself into this evergrowing industry. Second, It improves how you will influence the world with your designs and ideas. With robotics, you can make any revolutionary and world-changing idea in your lifetime. You can even make multiple. One person, with just robotics, can have more influence on the world than 1,000 people. Robotics is a powerful tool that, if you start involving yourself with it early, it can have some amazing benefits. 
 
 
 
-Well this is Arsh Suri signing off, Have a great day and *Do Robotics!*
+**Well this is Arsh Suri signing off, Have a great day and** *Do Robotics!*

@@ -16,7 +16,7 @@ layout: default
             Anonymous
             {% endif %}
             {% if post.date %}
-            on {{ post.date }}
+            on on {{ post.date | date: "%B %e, %Y" }}
             {% endif %}
             in {{ post.categories | join: ", " }}
         </p>

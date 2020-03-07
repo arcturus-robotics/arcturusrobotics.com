@@ -10,16 +10,23 @@ description: Because Unicode was made for making your Discord name look cool, no
     <li>Select the unicode font.</li>
     <li>Copy the text in the bottom textbox</li>
     <li>Enjoy!</li>
+    <li>(P.S; I wasted more time on this than I should have.)</li>
 </ol>
 
 <textarea style="resize: none; width: 75vw; height: 25vh; font-family: sans-serif;" id="input"></textarea><br>
 <select id="type">
     <option value="mathb">Mathematical Bold</option>
     <option value="mathi">Mathematical Italic</option>
-    <option disabled value="mathbi">Mathematical Bold & Italic</option>
-    <option disabled value="maths">Mathematical Script</option>
-    <option disabled value="mathsb">Mathematical Script Bold</option>
+    <option value="mathbi">Mathematical Bold Italic</option>
+    <option value="maths">Mathematical Script</option>
+    <option value="mathsb">Mathematical Script Bold</option>
     <option disabled value="mathf">Mathematical Franktur</option>
+    <option disabled value="mathfb">Mathematical Franktur Bold</option>
+    <option disabled value="mathd">Mathematical Double-Struck</option>
+    <option disabled value="mathss">Mathematical Sans Serif</option>
+    <option disabled value="mathssb">Mathematical Sans Serif Bold</option>
+    <option disabled value="mathssi">Mathematical Sans Serif Italic</option>
+    <option disabled value="mathssbi">Mathematical Sans Serif Bold Italic</option>
     <option selected value="mono">Monospace</option>
 </select><br>
 <textarea style="resize: none; width: 75vw; height: 25vh; font-family: sans-serif;" id="output"></textarea>
@@ -61,8 +68,19 @@ description: Because Unicode was made for making your Discord name look cool, no
         ),
         mathi: new Font(
             "𝐴 𝐵 𝐶 𝐷 𝐸 𝐹 𝐺 𝐻 𝐼 𝐽 𝐾 𝐿 𝑀 𝑁 𝑂 𝑃 𝑄 𝑅 𝑆 𝑇 𝑈 𝑉 𝑊 𝑋 𝑌 𝑍",
-            "𝑎 𝑏 𝑐 𝑑 𝑒 𝑓 𝑔 ℎ 𝑖 𝑗 𝑘 𝑙 𝑚 𝑛 𝑜 𝑝 𝑞 𝑟 𝑠 𝑡 𝑢 𝑣 𝑤 𝑥 𝑦 𝑧",
-            ""
+            "𝑎 𝑏 𝑐 𝑑 𝑒 𝑓 𝑔 ℎ 𝑖 𝑗 𝑘 𝑙 𝑚 𝑛 𝑜 𝑝 𝑞 𝑟 𝑠 𝑡 𝑢 𝑣 𝑤 𝑥 𝑦 𝑧"
+        ),
+        mathbi: new Font(
+            "𝑨 𝑩 𝑪 𝑫 𝑬 𝑭 𝑮 𝑯 𝑰 𝑱 𝑲 𝑳 𝑴 𝑵 𝑶 𝑷 𝑸 𝑹 𝑺 𝑻 𝑼 𝑽 𝑾 𝑿 𝒀 𝒁",
+            "𝒂 𝒃 𝒄 𝒅 𝒆 𝒇 𝒈 𝒉 𝒊 𝒋 𝒌 𝒍 𝒎 𝒏 𝒐 𝒑 𝒒 𝒓 𝒔 𝒕 𝒖 𝒗 𝒘 𝒙 𝒚 𝒛"
+        ),
+        maths: new Font(
+            "𝒜 ℬ 𝒞 𝒟 ℰ ℱ 𝒢 ℋ ℐ 𝒥 𝒦 ℒ ℳ 𝒩 𝒪 𝒫 𝒬 ℛ 𝒮 𝒯 𝒰 𝒱 𝒲 𝒳 𝒴 𝒵",
+            "𝒶 𝒷 𝒸 𝒹 ℯ 𝒻 ℊ 𝒽 𝒾 𝒿 𝓀 𝓁 𝓂 𝓃 ℴ 𝓅 𝓆 𝓇 𝓈 𝓉 𝓊 𝓋 𝓌 𝓍 𝓎 𝓏"
+        ),
+        mathsb: new Font(
+            "𝓐 𝓑 𝓒 𝓓 𝓔 𝓕 𝓖 𝓗 𝓘 𝓙 𝓚 𝓛 𝓜 𝓝 𝓞 𝓟 𝓠 𝓡 𝓢 𝓣 𝓤 𝓥 𝓦 𝓧 𝓨 𝓩",
+            "𝓪 𝓫 𝓬 𝓭 𝓮 𝓯 𝓰 𝓱 𝓲 𝓳 𝓴 𝓵 𝓶 𝓷 𝓸 𝓹 𝓺 𝓻 𝓼 𝓽 𝓾 𝓿 𝔀 𝔁 𝔂 𝔃"
         ),
         type: "mono"
     }

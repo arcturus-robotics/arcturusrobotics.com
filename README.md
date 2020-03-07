@@ -11,13 +11,13 @@ Our (mostly) handmade website.
 Type the following in your console:
 
 ```bash
-sh build.sh
+sh scripts/build.sh
 ```
 
 ## Windows
 
 ```bat
-build.bat
+<code to execute the file "scripts/build.bat">
 ```
 
 It should tell you what to put in your browser.

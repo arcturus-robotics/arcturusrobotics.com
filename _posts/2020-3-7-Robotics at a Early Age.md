@@ -23,6 +23,6 @@ Well, it does a number of things. First, it sets you on the path to join one of 
 
 ## My experience with Robotics
 
-Well like most kids, My mom went to a store and gave me a toy. This toy was a RC car I had to build. I continuing to use these kits and I progressed in terms of my fascination. It went from Legos, RC Cars, Technics, and progressed further and further. It was this process of progression from Summer camp, to club, to doing for fun, and compeititon. It made me who I am today and what I want to do. Robotics has given me a whole new perspective of the world and I am a better person because of it.
+Well like most kids, My mom went to a store and gave me a toy. This toy was a RC car I had to build. I continuing to use these kits and I progressed in terms of my fascination. It went from Legos, RC Cars, Technics, and progressed further and further. It was this process of progression from Summer camp, to club, to doing for fun, and compeititon. It made me who I am today and what I want to do. Robotics has given me a whole new perspective of the world and I am a better person because of it. I have went from a kid who played with Ninajgo Legos to a bigger kid who doesn't just play. This kid, who builds and codes advanced robots and has dreams and aspirations of changing the world. I have changed this way due to Robotics and without it, I don't really know where I will be. I know that through Robotics, we all will acheive something great and truly impact the world.
 
 **Well this is Arsh Suri signing off, Have a great day and** *Do Robotics!*

@@ -30,15 +30,14 @@ layout: default
 
 <h4 class="post-info">
     Posted by
-    {%- if page.author -%}
-    {{- page.author | prepend: " " | append: " " -}}
-    {%- else -%}
+    {% if page.author %}
+    {{ page.author }}
+    {% else %}
     Anonymous
-    {%- endif -%}
-    {%- if page.date -%}
-    on
-    {{- page.date | prepend: " " -}}
-    {%- endif -%}
+    {% endif %}
+    {% if page.date %}
+    on {{ post.date | date: "%b %d, %y" }}
+    {% endif %}
 </h4>
 
 <!-- The actual content -->

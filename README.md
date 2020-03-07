@@ -11,7 +11,7 @@ Our (mostly) handmade website.
 Type the following in your console:
 
 ```bash
-build.sh
+sh build.sh
 ```
 
 ## Windows

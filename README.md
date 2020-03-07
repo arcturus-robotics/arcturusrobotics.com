@@ -41,7 +41,6 @@ Blog posts also have to follow a strict set of guidelines for meta information. 
 layout: post
 title: "Building the new CoolWeelz Deluxe: Guide, Tutorial, and How-To"
 author: "Robotics Guy"
-publish_date: "Jan 31, 2054"
 categories: [Programming, Engineering]
 ---
 ```
@@ -51,7 +50,6 @@ categories: [Programming, Engineering]
 layout: post
 title: "How to Find The Village Witch: The Ultimate Guide"
 author: "Greta, The Village Elder"
-publish_date: "Sep 1, 415"
 categories: [Outreach]
 ---
 ```
@@ -87,7 +85,6 @@ A full cheatsheet can be found [here](https://github.com/adam-p/markdown-here/wi
 layout: post
 title: "Doing Robotics"
 author: "???"
-publishDate: "Feb 2, 2020"
 categories: [Programming, Outreach]
 ---
 

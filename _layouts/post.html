@@ -29,9 +29,9 @@ layout: default
     {%- else -%}
     anonymous
     {%- endif -%}
-    {%- if page.publish_date -%}
+    {%- if page.date -%}
     on
-    {{- page.publish_date | prepend: " " -}}
+    {{- page.date | prepend: " " -}}
     {%- endif -%}
 </h4>
 

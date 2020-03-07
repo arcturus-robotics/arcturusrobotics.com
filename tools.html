@@ -7,11 +7,11 @@ title: Tools
 <p>Tools are a bunch of useful software you might use in your life.</p>
 <ul>
     {% for tool in site.pages %}
-        {% if tool.path contains "tools/" %}
-            <li>
-                <h2><a href="{{ tool.path }}">{{ tool.title }}</a></h2>
-                <p>{{ tool.description }}</p>
-            </li>
-        {% endif %}
+    {% if tool.path contains "tools/" %}
+    <li>
+        <h2><a href="{{ tool.path }}">{{ tool.title }}</a></h2>
+        <p>{{ tool.description }}</p>
+    </li>
+    {% endif %}
     {% endfor %}
 </ul>

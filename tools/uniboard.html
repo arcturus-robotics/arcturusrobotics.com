@@ -42,16 +42,16 @@ description: Because Unicode was made for making your Discord name look cool, no
             // upper
             upper = upper.split(" ")
             this.upper = upper
-            upperList.forEach((char, index) => {this.dict[char] = upper[index]})
+            upperList.forEach((char, index) => { this.dict[char] = upper[index] })
             // lower
             lower = lower.split(" ")
             this.lower = lower
-            lowerList.forEach((char, index) => {this.dict[char] = lower[index]})
+            lowerList.forEach((char, index) => { this.dict[char] = lower[index] })
             // number
             if (typeof number == "string") {
                 number = number.split(" ")
                 this.number = number
-                numberList.forEach((char, index) => {this.dict[char] = number[index]})
+                numberList.forEach((char, index) => { this.dict[char] = number[index] })
             }
         }
     }
@@ -84,7 +84,7 @@ description: Because Unicode was made for making your Discord name look cool, no
         ),
         type: "mono"
     }
-    
+
     document.getElementById("type").onchange = (dat) => {
         data.type = dat.target.value
         document.getElementById("input").onkeyup()

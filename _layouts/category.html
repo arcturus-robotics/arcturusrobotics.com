@@ -1,24 +1,25 @@
 ---
 layout: default
 ---
-<!-- 
-    category.html
-    At the time of writing this, when you open
-    the "Blog" tab, it will show you 2
-    sections- "Categories", and "Posts". This
-    layout is made to help generate the
-    "Categories" part of the page.
--->
-<h1>Blog Posts in {{ page.category }}</h1>
+
+<h1>Blog Posts in {{- page.category -}}</h1>
 
 <ul>
-    {% for post in site.categories[page.category] %}
+    {%- for post in site.categories[page.category] -%}
     <li>
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p>Posted by {%- if post.author -%}{{ post.author | append: " " | prepend: " " }}{%- else -%}Anonymous{%- endif -%} on
-            {%- if post.publish_date -%}{{ post.publish_date | append: " " | prepend: " " }}{%- else -%}Unknown Date{%- endif -%}
-            in {{ post.categories | join: ", " }}</p>
-        {{ post.excerpt }}
+        <p>
+            Posted by
+            {%- if post.author -%}
+            {{- post.author | append: " " | prepend: " " -}}
+            {%- else -%}
+            {{- "Anonymous" | append: " " | prepend: " " -}}
+            {%- endif -%}
+            {%- if post.date -%}
+            on {{- post.date | append: " " | prepend: " " -}}
+            {%- endif -%}
+            in {{- post.categories | join: ", " -}}
+        </p>
     </li>
-    {% endfor %}
+    {%- endfor -%}
 </ul>

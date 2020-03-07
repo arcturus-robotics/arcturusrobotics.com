@@ -14,7 +14,7 @@ As the world of technology Develops, it has been increasing popular for kids to 
 
 * **Join a Summer Camp** if you have the slighest bit of intrest, it is better to test out the domain of technology than just sit and wonder if technology was ever for you
 * **Join a club!** Clubs are always are a great way to define your interest and further test things out. It is perfectly **okay** if technology is not your stride. 
-* **Do it for Fun!** There is no point to doing something just for the *resume* or otherwise. You hhave to engage with robotics in order for it to be truly involved
+* **Do it for Fun!** There is no point to doing something just for the *resume* or otherwise. You have to engage with robotics in order for it to be truly involved
 * Last, but not least **Compete**. Competing is way to meet others doing the same thing you are doing. Delveloping and learning essential life skills surronding robotics. Not only that, putting a face to compeititon and actually meeting them is a whole other motivation to get stronger and better in technology. Comepeting is one of the *the best* ways to further involve yourself with robotics and truly expericence it.
 
 ## What does getting Involved in Robotics do in terms of Career? 

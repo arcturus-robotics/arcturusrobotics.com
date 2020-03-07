@@ -2,23 +2,23 @@
 layout: default
 ---
 
-<h1>Blog Posts in {{- page.category -}}</h1>
+<h1>Blog Posts in {{ page.category -}}</h1>
 
 <ul>
     {%- for post in site.categories[page.category] -%}
     <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ post.url }}">{{- post.title -}}</a></h2>
         <p>
             Posted by
-            {%- if post.author -%}
-            {{- post.author | append: " " | prepend: " " -}}
-            {%- else -%}
-            {{- "Anonymous" | append: " " | prepend: " " -}}
-            {%- endif -%}
-            {%- if post.date -%}
-            on {{- post.date | append: " " | prepend: " " -}}
-            {%- endif -%}
-            in {{- post.categories | join: ", " -}}
+            {% if post.author %}
+            {{ post.author }}
+            {% else %}
+            Anonymous
+            {% endif %}
+            {% if post.date %}
+            on {{ post.date }}
+            {% endif %}
+            in {{ post.categories | join: ", " }}
         </p>
     </li>
     {%- endfor -%}

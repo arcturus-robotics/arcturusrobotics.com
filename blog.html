@@ -8,7 +8,7 @@ title: Blog Posts
 <ul>
     {%- for category in site.categories -%}
     <li>
-        <h3><a href="/categories/{{- category[0] | downcase -}}.html">{{ category[0] }}</a></h3>
+        <h3><a href="/categories/{{- category[0] | downcase -}}.html">{{- category[0] -}}</a></h3>
     </li>
     {%- endfor -%}
 </ul>
@@ -16,18 +16,18 @@ title: Blog Posts
 <ul>
     {%- for post in site.posts -%}
     <li>
-        <h3><a href="{{- post.url -}}">{{ post.title }}</a></h3>
+        <h3><a href="{{- post.url -}}">{{- post.title -}}</a></h3>
         <p>
             Posted by
-            {%- if post.author -%}
-            {{- post.author | append: " " | prepend: " " -}}
-            {%- else -%}
-            {{- "Anonymous" | append: " " | prepend: " " -}}
-            {%- endif -%}
-            {%- if post.date -%}
-            on {{- post.date | append: " " | prepend: " " -}}
-            {%- endif -%}
-            in {{- post.categories | join: ", " | prepend: " " -}}
+            {% if post.author %}
+            {{ post.author }}
+            {% else %}
+            Anonymous
+            {% endif %}
+            {% if post.date %}
+            on {{ post.date }}
+            {% endif %}
+            in {{ post.categories | join: ", " | prepend: " " }}
         </p>
     </li>
     {%- endfor -%}

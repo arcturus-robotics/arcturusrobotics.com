@@ -2,18 +2,22 @@
 <html lang="en">
 
 <head>
+    <!-- Add information to help get us higher up on search engines, hence *S*earch *E*ngine *O*ptimization -->
     {%- seo -%}
 
+    <!-- To help make us a Progressive Web App -->
     <meta name="theme-color" content="#ffa500">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="apple-touch-icon" href="/assets/image/apple-touch.png">
+    <!-- Load universally required files -->
     <link href="{{ "/assets/css/style.css" | relative_url }}" type="text/css" rel="stylesheet">
     <script defer src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" type="text/javascript"></script>
     <script defer src="{{ "/assets/js/header.js" | relative_url}}" type="text/javascript"></script>
 </head>
 
 <body>
+    <!-- Add the header -->
     {%- include header.html -%}
 
     <div class="content">
@@ -22,6 +26,7 @@
         </div>
     </div>
 
+    <!-- Add the footer -->
     {%- include footer.html -%}
 </body>
 

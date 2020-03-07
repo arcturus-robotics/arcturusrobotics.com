@@ -17,5 +17,5 @@ The code we used for our robot during the **Rover Ruckus** Season.
 - ## [Instascrape](https://github.com/arcturus-robotics/instascrape)
 A simple application to get the number of Following, Followers, and Posts from Instagram. **No sign-in required.**
 
-- ## [Website](https://github.com/arcturus-robotics/arcturus-robotics.githubio)
+- ## [Website](https://github.com/arcturus-robotics/arcturus-robotics.github.io)
 The page you are on **right now!**

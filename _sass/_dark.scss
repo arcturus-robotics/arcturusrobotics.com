@@ -1,3 +1,5 @@
+// All this extra CSS is loaded if the user's browser says "gimme dark mode, ya loser"
+
 @media (prefers-color-scheme: dark) {
     *:not(#navigation-fullscreen-button):not(.arcturus-text):not(.resources-button):not(.highlight):not(span):not(code) {
         color: $white;

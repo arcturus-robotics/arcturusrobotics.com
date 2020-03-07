@@ -5,14 +5,16 @@ layout: default
 <!-- CSS for blog posts only! -->
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
     h1 {
         display: inline-block;
         width: auto;
         margin-bottom: 0px;
     }
 
-    .wrapper>*, .wrapper>*>*, .wrapper>*>*>* {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    .wrapper>*, .wrapper>*>*:not(.navigation-home), .wrapper>*>*>* {
+        font-family: 'Roboto', 'Calibri', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
 
     .post-info {

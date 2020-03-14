@@ -4,11 +4,10 @@ layout: default
 
 <!-- CSS for blog posts only! -->
 
-<head>
-<link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+
 <style>
-    //@import url('https://fonts.googleapis.com/css?family=Bellota&display=swap');
-    //$inter-font: 'Bellota', cursive;
+    @import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+    $inter-font: 'Inter', sans-serif;
     h1 {
         display: inline-block;
         width: auto;
@@ -18,7 +17,7 @@ layout: default
     .wrapper>*,
     .wrapper>*>*:not(.navigation-home),
     .wrapper>*>*>* {
-        font-family: 'Inter', sans-serif;
+        font-family: $inter-font;
         //'Roboto', 'Calibri', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     }
 
@@ -26,8 +25,6 @@ layout: default
         margin: 0px;
     }
 </style>
-</head>
-
 <!-- Give the page a title if it has one -->
 
 {%- if page.title -%}

@@ -3,15 +3,29 @@ layout: default
 ---
 
 <!-- CSS for blog posts only! -->
-
-
 <style>
     @import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 
-    h1 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         display: inline-block;
         width: auto;
-        margin-bottom: 10px;
+        margin: 10px;
+    }
+
+    .highlight {
+        margin: 10px;
+        border-radius: 2.5px;
+        padding: 2px;
+    }
+
+    code {
+        border-radius: 2.5px;
+        padding: 1px;
     }
 
     .wrapper>*,
@@ -41,7 +55,7 @@ layout: default
     Anonymous
     {% endif %}
     {% if page.date %}
-    on {{ page.date | date: "%b %d, %y" }}
+    on {{ page.date | date: "%B %d, %y" }}
     {% endif %}
 </h4>
 

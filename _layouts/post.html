@@ -6,16 +6,9 @@ layout: default
 <style>
     @import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        display: inline-block;
+    h1, h2, h3,
+    h4, h5, h6 {
         width: auto;
-        margin: 10px;
-        text-align: center;
     }
 
     .highlight {
@@ -29,19 +22,23 @@ layout: default
         padding: 1px;
     }
 
-    .wrapper>*,
-    .wrapper>*>*:not(.navigation-home),
-    .wrapper>*>*>* {
+    .coolstuff {
+        margin: 10px;
+    }
+
+    .coolstuff>*,
+    .coolstuff>*>*:not(.navigation-home),
+    .coolstuff>*>*>* {
         font-family: 'Inter', sans-serif;
-        line-height: 30px;
-        text-align: center;
     }
 
     .post-info {
-        margin: 10px;
         text-align: center;
+        margin: 0;
     }
 </style>
+<!-- HTML wrappers for dummies -->
+<div class="coolstuff">
 <!-- Give the page a title if it has one -->
 
 {%- if page.title -%}
@@ -65,3 +62,4 @@ layout: default
 <!-- The actual content -->
 
 {{- content -}}
+</div>

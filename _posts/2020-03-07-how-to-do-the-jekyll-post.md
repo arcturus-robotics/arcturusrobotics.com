@@ -5,7 +5,7 @@ author: "Henry"
 categories: [Programming]
 ---
 
-Jekyll is a website building tool to turn Markdown files (like this one.) into websites.
+Jekyll is a website building tool to turn Markdown files (like this one) into websites.
 
 ## Markdown
 

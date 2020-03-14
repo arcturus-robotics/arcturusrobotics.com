@@ -6,7 +6,7 @@ Our (mostly) handmade website.
 
 ### "CLI"
 
-## macOS / Linux
+#### macOS / Linux
 
 Type the following in your console:
 
@@ -14,7 +14,7 @@ Type the following in your console:
 sh scripts/build.sh
 ```
 
-## Windows
+#### Windows
 
 ```bat
 <code to execute the file "scripts/build.bat">

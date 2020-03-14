@@ -141,4 +141,6 @@ You don't have to put a top-level header in there,because Jekyll does it for you
 
 1. Create a file in `_posts` in the website's repository.
 2. Name it in the format of `yyyy-mm-dd-your-title-here.md`. Remember to write `2020-03-07` and not `2020-3-7` (this is probably important).
-3. Write your post!
+3. Write your post. Remember to include front matter and to use proper Markdown syntax.
+4. Add, commit, and push your work to the GitHub repository.
+5. You're finished!

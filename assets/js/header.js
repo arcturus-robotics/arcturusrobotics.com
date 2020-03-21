@@ -1,28 +1,18 @@
-let FullscreenNavigation = class {
-    constructor() {
-        this.state = false;
-        this.container = "#navigation-fullscreen";
-        this.button = "#navigation-fullscreen-button";
-    }
+// Declare variables
+let state = false,
+container = "#navigation-fullscreen",
+button = "#navigation-fullscreen-button";
 
-    toggle() {
-        // Toggle the state.
-        this.state = !this.state;
-
-        if (this.state) {
-            // Show the container.
-            $(this.container).toggleClass("navigation-fullscreen-container-active");
-            $(this.container).css("display", "block");
-            // Activate the button.
-            $(this.button).toggleClass("navigation-fullscreen-button-active")
-        } else {
-            // Hide the container.
-            $(this.container).toggleClass("navigation-fullscreen-container-active");
-            $(this.container).css("display", "none");
-            // Deactivate the button.
-            $(this.button).toggleClass("navigation-fullscreen-button-active")
-        }
+function toggleNav() {
+    // Toggle state variable, see why in a few lines
+    state = !state;
+    // Toggle CSS classes
+    $(container).toggleClass("navigation-fullscreen-container-active");
+    $(button).toggleClass("navigation-fullscreen-button-active")
+    // Hide/show the main button-pushing stuff
+    if (state) {
+        $(container).css("display", "block");
+    } else {
+        $(container).css("display", "none");
     }
 }
-
-let fullscreenNavigation = new FullscreenNavigation;

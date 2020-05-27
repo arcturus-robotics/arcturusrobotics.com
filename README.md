@@ -4,22 +4,11 @@ Our (mostly) handmade website.
 
 ## Build
 
-### "CLI"
+### Console
 
-#### macOS / Linux
-
-Type the following in your console:
-
-```bash
-sh scripts/build.sh
-```
-
-#### Windows
-
-```bat
-<code to execute the file "scripts/build.bat">
-```
-
+Run the script that matches your operating system.
+That'll be `scripts/build.sh` on macOS/Linux/*nix
+and `scripts/build.bat` on Windows.
 It should tell you what to put in your browser.
 
 ### CodeKit

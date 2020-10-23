@@ -6,8 +6,12 @@ layout: default
 <style>
     @import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
 
-    h1, h2, h3,
-    h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         width: auto;
     }
 
@@ -39,27 +43,27 @@ layout: default
 </style>
 <!-- HTML wrappers for dummies -->
 <div class="coolstuff">
-<!-- Give the page a title if it has one -->
+    <!-- Give the page a title if it has one -->
 
-{%- if page.title -%}
-<h1>{{- page.title -}}</h1>
-{%- endif -%}
+    {%- if page.title -%}
+    <h1>{{- page.title -}}</h1>
+    {%- endif -%}
 
-<!-- Give the post some meta info, if it has any -->
+    <!-- Give the post some meta info, if it has any -->
 
-<h4 class="post-info">
-    Posted by
-    {% if page.author %}
-    {{ page.author }}
-    {% else %}
-    Anonymous
-    {% endif %}
-    {% if page.date %}
-    on {{ page.date | date: "%B %d, %y" }}
-    {% endif %}
-</h4>
+    <h4 class="post-info">
+        Posted by
+        {% if page.author %}
+        {{ page.author }}
+        {% else %}
+        Anonymous
+        {% endif %}
+        {% if page.date %}
+        on {{ page.date | date: "%B %d, %y" }}
+        {% endif %}
+    </h4>
 
-<!-- The actual content -->
+    <!-- The actual content -->
 
-{{- content -}}
+    {{- content -}}
 </div>

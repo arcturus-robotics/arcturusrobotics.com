@@ -19,4 +19,4 @@ Click the little eye + window icon to open up the website in your default browse
 
 ## Making Blog Posts
 
-Moved to google doc :sunglasses:
+There's a blog post about this.

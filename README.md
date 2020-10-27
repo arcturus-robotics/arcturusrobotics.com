@@ -10,6 +10,7 @@ Run the script that matches your operating system.
 That'll be `scripts/build.sh` on macOS/Linux/*nix
 and `scripts/build.bat` on Windows.
 It should tell you what to put in your browser.
+This requires [Bundler](https://bundler.io/) and [Jekyll](https://jekyllrb.com/) to be installed.
 
 ### CodeKit
 

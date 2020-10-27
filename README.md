@@ -19,4 +19,4 @@ Click the little eye + window icon to open up the website in your default browse
 
 ## Making Blog Posts
 
-There's a blog post about this.
+[There's a blog post about this!](https://arcturus-robotics.github.io/programming/2020/03/07/how-to-do-the-jekyll-post.html)

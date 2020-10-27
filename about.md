@@ -3,7 +3,7 @@ title: About
 layout: default
 ---
 
-# About
+# {{ page.title }}
 
 ## Us
 
@@ -11,11 +11,19 @@ Arcturus is a student-led team competing in the First Tech Challenge. We strive 
 
 ### Outreach Efforts
 
-???
+[We have a podcast! You can check it out on our YouTube channel.](https://www.youtube.com/channel/{{- site.author.social.youtube.id | cgi_escape | escape -}})
+
+We also mentor FLL teams.
 
 ### Sponsors
 
-\*WIP\*
+We're very grateful for our sponsors. Thank you!
+
+{% for sponsor in site.data.sponsors %}
+
+#### [{{- sponsor.name -}}]({{- sponsor.url -}})
+
+{% endfor %}
 
 ## First Tech Challenge
 

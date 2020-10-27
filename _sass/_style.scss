@@ -133,7 +133,9 @@ p {
 .content {
     padding: 0;
     position: relative;
-    min-height: calc(100vh - 130px)
+    min-height: calc(100vh - 130px);
+    margin-left: 10px;
+    margin-right: 10x;
 }
 
 .invert {

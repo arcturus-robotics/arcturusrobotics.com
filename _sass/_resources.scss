@@ -11,7 +11,7 @@
 
 .resources-button {
     width: calc(500px / 1.5);
-    height: calc(250px / 1.5);
+    height: 230px;
     background-color: black;
     color: orange;
     font-size: 20pt;
@@ -24,7 +24,7 @@ a .resources-button {
 }
 
 .resources-button-small {
-    height: calc(120px / 1.5);
+    height: 110px;
 }
 
 @media screen and (max-width: 705px) {

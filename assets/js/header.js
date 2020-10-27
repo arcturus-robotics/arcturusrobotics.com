@@ -1,16 +1,17 @@
 // Declare variables
-let state = false,
-container = "#navigation-fullscreen",
-button = "#navigation-fullscreen-button";
+let navState = false,
+    navContainer = "#navigation-fullscreen",
+    navButton = "#navigation-fullscreen-button";
 
-function toggleNav() {
+let toggleNav = () => {
     // Toggle state variable, see why in a few lines
-    state = !state;
+    navState = !navState;
     // Toggle CSS classes
-    $(container).toggleClass("navigation-fullscreen-container-active");
-    $(button).toggleClass("navigation-fullscreen-button-active")
+    // me when depend on jquery just to do nav toggling 😎
+    $(navContainer).toggleClass("navigation-fullscreen-container-active");
+    $(navButton).toggleClass("navigation-fullscreen-button-active")
     // Hide/show the main button-pushing stuff
-    if (state) {
+    if (navState) {
         $(container).css("display", "block");
     } else {
         $(container).css("display", "none");

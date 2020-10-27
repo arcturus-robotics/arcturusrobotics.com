@@ -25,7 +25,7 @@ title: Blog Posts
             Anonymous
             {% endif %}
             {% if post.date %}
-            on on {{ post.date | date: "%B %e, %Y" }}
+            on {{ post.date | date: "%B %e, %Y" }}
             {% endif %}
             in {{ post.categories | join: ", " | prepend: " " }}
         </p>

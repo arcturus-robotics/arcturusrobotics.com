@@ -4,58 +4,54 @@ layout: default
 ---
 
 <!-- Sphere Obama -->
-<h1>Resources</h1>
-<p style="text-align: center;">For the Ultimate Goal Season (2020-2021)</p>
-<a href="https://www.firstinspires.org/resource-library/ftc/game-and-season-info">(you can find more resources here)</a>
+<h1>{{- page.title -}}</h1>
+<div style="text-align: center;">
+    <p>For the Ultimate Goal Season (2020-2021)</p>
+    <a href="{{- site.data.links.game_and_season_info -}}">(you can find more resources
+        here)</a>
+</div>
 <table id="resources">
     <tbody>
         <tr>
             <td>
-                <a href="https://www.youtube.com/watch?v=H3V3A7CgwPU">
+                <a href="{{- site.data.links.game_reveal -}}">
                     <button class="resources-button">Game Reveal</button>
                 </a>
             </td>
             <td>
-                <a
-                    href="https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-1-traditional-events.pdf">
+                <a href="{{- site.data.links.game_one_page -}}">
+                    <button class="resources-button">One-Pager</button>
+                </a>
+            </td>
+            <td>
+                <a href="{{- site.data.links.robot_inspection_checklist -}}">
+                    <button class="resources-button">Self-Inspection Checklist</button>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="{{- site.data.links.game_manual_part_1_traditional_events -}}">
                     <button class="resources-button resources-button-small">Game Manual Part 1 (Traditional
                         Events)</button>
                 </a>
                 <br>
-                <a
-                    href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-traditional-events.pdf">
+                <a href="{{- site.data.links.game_manual_part_2_traditional_events -}}">
                     <button class="resources-button resources-button-small">Game Manual Part 2 (Traditional
                         Events)</button>
                 </a>
             </td>
             <td>
-                <a
-                    href="https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-1-remote-events.pdf">
+                <a href="{{- site.data.links.game_manual_part_1_remote_events -}}">
                     <button class="resources-button resources-button-small">Game Manual Part 1 (Remote
                         Events)</button>
                 </a>
                 <br>
-                <a
-                    href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-remote-events.pdf">
+                <a href="{{- site.data.links.game_manual_part_2_remote_events -}}">
                     <button class="resources-button resources-button-small">Game Manual Part 2 (Remote
                         Events)</button>
                 </a>
             </td>
-        </tr>
-        <tr>
-            <td>
-                <a
-                    href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf">
-                    <button class="resources-button">Self-Inspection Checklist</button>
-                </a>
-            </td>
-            <td>
-                <a href="https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-one-page.pdf">
-                    <button class="resources-button">One-Pager</button>
-                </a>
-            </td>
-        </tr>
-        <tr>
             <td>
                 <a href="/ftc.html">
                     <button class="resources-button resources-button-small">What is FTC? (Quick Explanation)</button>
@@ -65,48 +61,35 @@ layout: default
                     <button class="resources-button resources-button-small">What is FLL? (Quick Explanation)</button>
                 </a>
             </td>
-            <td>
-                <a href="https://xrcsimulator.org">
-                    <button class="resources-button">xRC Simulator</button>
-                </a>
-            </td>
         </tr>
     </tbody>
 </table>
 <div id="resources-mobile">
-    <a href="https://www.youtube.com/watch?v=H3V3A7CgwPU">
+    <a href="{{- site.data.links.game_reveal -}}">
         <button class="resources-button">Game Reveal</button>
     </a>
-    <a
-        href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/robot-inspection-checklist.pdf">
+    <a href="{{- site.data.links.robot_inspection_checklist -}}">
         <button class="resources-button">Self-Inspection Checklist</button>
     </a>
-    <a href="https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-one-page.pdf">
+    <a href="{{- site.data.links.game_one_page -}}">
         <button class="resources-button">One-Pager</button>
     </a>
-    <a href="/pages/ftc.html">
-        <button class="resources-button resources-button-small">FTC Short Explanation</button>
-    </a>
-    <a href="/pages/fll.html">
-        <button class="resources-button resources-button-small">FLL Short Explanation</button>
-    </a>
-    <a
-        href="https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-1-traditional-events.pdf">
+    <a href="{{- site.data.links.game_manual_part_1_traditional_events -}}">
         <button class="resources-button resources-button-small">Game Manual Pt. 1 (Traditional)</button>
     </a>
-    <a
-        href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-traditional-events.pdf">
+    <a href="{{- site.data.links.game_manual_part_2_traditional_events -}}">
         <button class="resources-button resources-button-small">Game Manual Pt. 2 (Traditional)</button>
     </a>
-    <a
-        href="https://firstinspiresst01.blob.core.windows.net/first-game-changers/ftc/game-manual-part-1-remote-events.pdf">
+    <a href="{{- site.data.links.game_manual_part_1_remote_events -}}">
         <button class="resources-button resources-button-small">Game Manual Pt. 1 (Remote)</button>
     </a>
-    <a
-        href="https://www.firstinspires.org/sites/default/files/uploads/resource_library/ftc/game-manual-part-2-remote-events.pdf">
+    <a href="{{- site.data.links.game_manual_part_2_remote_events -}}">
         <button class="resources-button resources-button-small">Game Manual Pt. 2 (Remote)</button>
     </a>
-    <a href="https://xrcsimulator.org/">
-        <button class="resources-button">xRC Simulator</button>
+    <a href="/ftc.html">
+        <button class="resources-button resources-button-small">FTC Short Explanation</button>
+    </a>
+    <a href="/fll.html">
+        <button class="resources-button resources-button-small">FLL Short Explanation</button>
     </a>
 </div>

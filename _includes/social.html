@@ -61,7 +61,7 @@
     {%- endif -%}
     {%- if social.youtube -%}
     <li>
-        <a rel="me" href="https://www.youtube.com/channel/{{ social.youtube.id | cgi_escape | escape }}"
+        <a rel="me" href="https://www.youtube.com/channel/{{- social.youtube.id | cgi_escape | escape -}}"
             title="{{ social.youtube.name | escape | default: "YouTube" }}">
             <svg fill="orange" class="svg" alt="YouTube" width="17.5px" height="17.5px">
                 <path

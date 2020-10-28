@@ -3,11 +3,11 @@ title: Projects
 layout: default
 ---
 
-# {{ page.title }}
-
 {% for project in site.data.projects %}
-
-- ## [{{project.name}}]({{project.url}})
-{{project.description}}
-
+{% if project.url %}
+- ## [{{- project.name -}}]({{- project.url -}})
+{% else %}
+- ## {{ project.name }}
+{% endif %}
+{{- project.description -}}
 {% endfor %}

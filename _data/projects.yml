@@ -1,6 +1,5 @@
 - name: Robot
   description: The team's robot for the **Ultimate Goal** season.
-  url: /robot.html
 - name: Ultimate Goal App
   description: The code we're using during the **Ultimate Goal** Season (this season).
   url: https://github.com/arcturus-robotics/ultimate-goal-app

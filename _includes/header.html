@@ -1,12 +1,12 @@
 <div class="header">
     <div class="wrapper">
         <div class="navigation">
-            <a class="navigation-home" href="/">Arcturus Robotics</a>
+            <a class="navigation-home" href="{{- "/" | relative_url -}}">Arcturus Robotics</a>
 
             <ul class="navigation-links">
                 {%- for item in site.data.navigation -%}
                 <li class="navigation-link">
-                    <a href="{{ item.url }}">
+                    <a href="{{- item.url | relative_url -}}">
                         {{- item.name | escape -}}
                     </a>
                 </li>

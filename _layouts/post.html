@@ -41,16 +41,10 @@ layout: default
         margin: 0;
     }
 </style>
+
 <!-- HTML wrappers for dummies -->
 <div class="coolstuff">
-    <!-- Give the page a title if it has one -->
-
-    {%- if page.title -%}
-    <h1>{{- page.title -}}</h1>
-    {%- endif -%}
-
     <!-- Give the post some meta info, if it has any -->
-
     <h4 class="post-info">
         Posted by
         {% if page.author %}

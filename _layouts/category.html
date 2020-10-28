@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<h1>Blog Posts in {{ page.category -}}</h1>
-
 <ul>
     {%- for post in site.categories[page.category] -%}
     <li>
@@ -16,7 +14,7 @@ layout: default
             Anonymous
             {% endif %}
             {% if post.date %}
-            on on {{ post.date | date: "%B %e, %Y" }}
+            on {{ post.date | date: "%B %e, %Y" }}
             {% endif %}
             in {{ post.categories | join: ", " }}
         </p>

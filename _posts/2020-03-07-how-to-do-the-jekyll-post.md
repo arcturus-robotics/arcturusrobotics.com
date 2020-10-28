@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "How to do the Jekyll Post"
-author: "Henry"
-categories: [Programming]
+title: How to do the Jekyll Post
+author: Henry
+categories:
+  - Programming
 ---
 
 Jekyll is a website building tool to turn Markdown files (like this one) into websites.

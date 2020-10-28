@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Getting Involved in Robotics at an Early Age"
-author: "Arsh Suri"
-publish_date: "March 3, 2020"
-categories: [Outreach]
+title: Getting Involved in Robotics at an Early Age
+author: Arsh Suri
+publish_date: March 3, 2020
+categories: 
+  - Outreach
 ---
 
 ## What Does Getting Involved in Robotics Early Mean?

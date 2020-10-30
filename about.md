@@ -18,9 +18,7 @@ We also mentor FLL teams.
 We're very grateful for our sponsors. Thank you!
 
 {% for sponsor in site.data.sponsors %}
-
 #### [{{- sponsor.name -}}]({{- sponsor.url -}})
-
 {% endfor %}
 
 ## First Tech Challenge

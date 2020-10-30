@@ -22,7 +22,7 @@
 <div id="navigation-fullscreen">
     {%- for item in site.data.navigation -%}
     <li class="navigation-link">
-        <a href="{{ item.url }}">
+        <a href="{{- item.url -}}">
             {{- item.name | escape -}}
         </a>
     </li>

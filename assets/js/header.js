@@ -12,8 +12,8 @@ let toggleNav = () => {
     $(navButton).toggleClass("navigation-fullscreen-button-active")
     // Hide/show the main button-pushing stuff
     if (navState) {
-        $(container).css("display", "block");
+        $(navContainer).css("display", "block");
     } else {
-        $(container).css("display", "none");
+        $(navContainer).css("display", "none");
     }
 }

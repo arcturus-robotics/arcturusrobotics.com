@@ -7,7 +7,8 @@
     width: 25px;
     height: 25px;
     cursor: pointer;
-    transition: all 1.5s ease;
+    user-select: none;
+    transition: all 0.5s ease;
     filter: invert(63%) sepia(36%) saturate(3314%) hue-rotate(3deg) brightness(107%) contrast(107%);
 }
 
@@ -21,16 +22,18 @@
     }
 }
 
-#navigation-fullscreen {
+#navigation-fullscreen-container {
     position: fixed;
     width: 100%;
     height: calc(100% - 50px);
     left: 0;
     top: 50px;
     z-index: 1000;
-    display: none;
+    opacity: 0;
     background: rgba(51, 51, 51, 0.7);
-    animation: fade-out;
+    transition: all 0.5s ease;
+    pointer-events: none;
+    user-select: none;
 
     * {
         display: block;
@@ -47,17 +50,9 @@
 }
 
 .navigation-fullscreen-container-active {
-    animation: fadein 1.5s;
-}
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
-
-@keyframes fadeout {
-    from { opacity: 1; }
-    to { opacity: 0; }
+    opacity: 1 !important;
+    pointer-events: all !important;
+    user-select: all !important;
 }
 
 // MOBILE HEADER

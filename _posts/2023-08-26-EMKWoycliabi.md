@@ -1,0 +1,8 @@
+---
+layout: post
+title: Emulating Mario Kart Wii on your coding laptop is a bad idea
+author: Andre
+categories:
+  - Programming
+---
+So when i was setting up our team's coding laptop (an old dell inspiron from 15 years ago that I repurposed for our team by installing a new SSD, replacing the cmos battery, and installing linux), I installed Dolphin Emulator to play Mario Kart Wii to test out the performance of the old computer and unsurprisingly it ran at ~65% the original speed. But that was still enough for my fellow FTC members and we would play Mario Kart Wii whenever it was break time. That was possible because we have 3 logitech controllers and 1 PS4 controller for driving the robot (don't ask why we have so many) and the laptop itself actually has 4 USB-A ports, so we wouldn't need any extra USB hubs. But all that fun would come at a cost, a performance cost with constant stutters and fluctuations in the FPS and the in-game music would get completely butchered (Coconut Mall had never sounded so terrible). And playing Mario Kart meant that nobody could code or drive the robot since the coding laptop and all 4 controllers would be in use. So if you ever want to play Mario Kart Wii at your FTC meetings, either bring your own Wii with an original disk or play on your own personal (and probably more powerful) laptop. And on a related side note, never install linux on your coding laptop because linux is incredibly unstable and if something goes wrong and the IT guy isn't there (me), then the team has no coding laptop.
